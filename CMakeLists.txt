@@ -13,10 +13,10 @@ set(INC_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
 # Chỉ định thư mục chứa file Header
 include_directories(${INC_DIR})
 
-# (Tạm thời để trống phần executable, chúng ta sẽ thêm file nguồn vào sau)
 # Khai báo file mã nguồn
 set(SOURCES
     ${SRC_DIR}/Memory.cpp
+    ${SRC_DIR}/Scanner.cpp
 )
 
 # Tạo thư viện tĩnh (Static Library) cho Core Engine
